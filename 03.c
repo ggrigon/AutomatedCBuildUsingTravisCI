@@ -31,7 +31,7 @@ int main(){
     printf("Marca: %s Modelo: %s Porcentagem de desconto: %d%% Valor Final: R$%0.2f \n", marca, modelo, porcentagem, vdesconto);
     printf("Deseja Continuar calculando o desconto?\n");
     scanf("%c", &continua);
-    fpurge(stdin);
+    ___fpurge(stdin);
   } while ( continua != 'N' && continua != 'n');
 
   return 0;
